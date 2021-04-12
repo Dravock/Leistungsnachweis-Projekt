@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+div{
+    color: aqua;
+    text-align: center;
+}
+
+.menue {
+    border: thin solid greenyellow;
+}
+.hylinks{
+    color: aqua;
+    text-decoration: none;
+}
