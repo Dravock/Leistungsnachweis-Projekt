@@ -1,16 +1,53 @@
-body{
-    background-color: black;
+*{
+    box-sizing: border-box;
+    float: left;
 }
-
-div{
-    color: aqua;
+body{
+    background-image: url(../img/wallpaper-shadowlands-zerschmetterter-himmel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;     
+}
+.head{
+    position: fixed;
+}
+.container-fluid{
+    background-color: blue;
+}
+.foot{
     text-align: center;
 }
+.row{ 
+    width: 99vw;
+    height: auto;
+}
+div{
+    color: black;
+    font-size:larger;
+    }
 
-.menue {
-    border: thin solid greenyellow;
+
+.überschrift1{
+    position: fixed;
+    text-align: center;
+    
 }
-.hylinks{
-    color: aqua;
-    text-decoration: none;
+.logo {
+    width: 70%;
+    height: auto;
+    margin-left: 32%;
 }
+
+.topbar-responsive-button {
+
+    color: #fefefe;
+  
+    border-color: #fefefe;
+  
+    border-radius: 5000px;
+  
+    transition: color 0.15s ease-in, border-color 0.15s ease-in;
+  
+  }
+
+
