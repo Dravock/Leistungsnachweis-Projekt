@@ -83,9 +83,9 @@ body{
   border: solid;
   background-color: burlywood;
   margin: 0 auto;
-  margin-top: 15%;
-  width: 315px;
-  height: 400px;
+  margin-top: 5%;
+  width: 500px;
+  height: 700px;
 }
 .anmeldefenster{
   border:  thin solid black;
@@ -95,6 +95,9 @@ body{
 }
 .anmeldefenster2{
 margin-left: 10px;
+}
+#senden{
+  margin-left: 200px;
 }
 /* CSS für Login */
 .loginfenster{
@@ -154,12 +157,8 @@ footer a:hover {
   padding-top: 2em;
   color: white;
 }
-
-
 /*SOCİAL İCONS*/
-
 /* footer social icons */
-
 ul.social-network {
   list-style: none;
   display: inline;
