@@ -83,9 +83,9 @@ body{
   border: solid;
   background-color: burlywood;
   margin: 0 auto;
-  margin-top: 5%;
-  width: 500px;
-  height: 700px;
+  margin-top: 15%;
+  width: 410px;
+  height: 725px;
 }
 .anmeldefenster{
   border:  thin solid black;
@@ -97,7 +97,38 @@ body{
 margin-left: 10px;
 }
 #senden{
-  margin-left: 200px;
+  margin-left: 165px;
+}
+#länder{
+  width: 175px;
+}
+#bundesländer{
+  width: 175px;
+}
+#phone_home::-webkit-outer-spin-button ,
+#phone_home::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#phone_mobil::-webkit-outer-spin-button ,
+#phone_mobil::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#phone_home::-webkit-outer-spin-button ,
+#phone_home::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#Adresse_hausnummer::-webkit-outer-spin-button ,
+#Adresse_hausnummer::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#Adresse_plz::-webkit-outer-spin-button ,
+#Adresse_plz::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 /* CSS für Login */
 .loginfenster{
