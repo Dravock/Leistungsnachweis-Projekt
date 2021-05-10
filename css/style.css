@@ -2,6 +2,19 @@
     box-sizing: border-box;
     
 }
+@font-face {
+  font-family: 'lifecraft';
+  font-style: normal;
+  font-weight: normal;
+  src: local('lifecraft'), url('LifeCraft_Font.ttf') format('ttf');
+}
+
+.wowschrift{
+  font-family: 'Lifecraft';
+  color: black;
+  font-size: 50px;
+ 
+}
 h1{
     text-decoration: underline;
 }    
@@ -44,33 +57,81 @@ body{
     margin-top: 50px;        
 }
 /* CSS für die News */
+.inhalt{
+  height:auto;
+}
 .ba{
     border: solid;
     background-color: burlywood;
     background-color: transparent 50%;
-}
-.BaÜberschriften{
-    color: black;
-    text-decoration: underline black;
-}
-.trennlinie{
-  border: 0;
-  width: 100%;
-  height: 10px;
-  background-color: rgb(255, 223, 0);
-  
+    float :left ;
+    margin-bottom: 25px;
+    padding: 20px;
+    padding-top: 0;
   }
+.BaÜberschriften{
+    font-size: 2.5em;
+    color: black;
+    text-decoration: underline black;    
+}
+@media(max-width:50em){
+  .BaÜberschriften{ font-size: 2em;}
+  .txtba{display: inline-block;}
+  .imgba{margin: 0px;}
+}
+
 .imgba{   
-    margin-left: -10px;
-    margin-right: 15px;
     border:solid;
+    margin-right: 10px;
     width: 250px;
     height: 200px;
     float: left; 
 }
- .txtba{   
-    margin: 5px;   
-} 
+/* CSS Für Dungeon */
+.Dungeonboss{
+  border: black solid;
+  
+}
+  /* Css Für DoS */
+  .baDoS{
+    border: solid;
+    background-color: burlywood;
+    background-color: transparent 50%;
+    float :left ;
+    margin-bottom: 25px;
+    padding: 20px;
+    
+  }
+/* CSS für guide1 */
+#inbearbeitung{
+  font-size: 1em;
+  font-weight: bolder;
+  margin-top: 20%;
+  
+}
+/* CSS Für Raid */
+  /* CSS für Worldbosse */
+  .zusammenfassungworldboss{
+    font-weight: bolder;
+  }
+
+/* CSS für Bildergalerie */
+.Galleriefenster{
+  border: solid;
+  background-color: burlywood;
+  margin-top: 5%;
+  padding: 5px;
+ 
+}
+.img-thumbnail{
+  border-color: #44BCDD;
+  height: 200px;
+  width: auto;
+}
+.img-thumbnail:hover{
+  border: 8px solid red ;
+  box-shadow: 2px 2px 5px red ;
+}
 /* CSS Für Impressum */
 .textimp{
   padding-left: 15px; 
