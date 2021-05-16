@@ -39,6 +39,7 @@ body{
     border-radius: 5000px;      
     transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
+
 .reg{
     color: black;  
 }
@@ -50,6 +51,9 @@ body{
     height: auto;    
 }
 /* CSS für den Footer */
+.siteprogress {
+  margin-top: 20%;
+}
 .logo {
     width: 50%;
     height: auto;
@@ -104,9 +108,11 @@ body{
   }
 /* CSS für guide1 */
 #inbearbeitung{
-  font-size: 1em;
+  font-size: 2em;
   font-weight: bolder;
   margin-top: 20%;
+  color: black;
+  text-align: center;
   
 }
 /* CSS Für Raid */
@@ -120,9 +126,9 @@ body{
   border: solid;
   background-color: burlywood;
   margin-top: 5%;
+  
   padding: 5px;
- 
-}
+} 
 .img-thumbnail{
   border-color: #44BCDD;
   height: 200px;
@@ -219,6 +225,9 @@ margin-left: 10px;
     font-size: 12px;
 }
 /* CSS Für fertigen Footer */
+.fixbottom{
+  margin-top: 20%;
+}
 footer {
   background: #16222A;
   background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
@@ -262,18 +271,16 @@ ul.social-network li {
   display: inline;
   margin: 0 5px;
 }
-
-
 /* footer social icons */
-
 .social-network a.icoFacebook:hover {
   background-color: #3B5998;
 }
-
 .social-network a.icoLinkedin:hover {
   background-color: #007bb7;
 }
-
+.social-network a.icoGithub:hover {
+  background-color: #007bb7;
+}
 .social-network a.icoFacebook:hover i,
 .social-network a.icoLinkedin:hover i {
   color: #fff;
@@ -296,13 +303,11 @@ ul.social-network li {
   height: 30px;
   font-size: 15px;
 }
-
 .social-circle li i {
   margin: 0;
   line-height: 30px;
   text-align: center;
 }
-
 .social-circle li a:hover i,
 .triggeredHover {
   -moz-transform: rotate(360deg);
@@ -315,7 +320,6 @@ ul.social-network li {
   -ms-transition: all 0.2s;
   transition: all 0.2s;
 }
-
 .social-circle i {
   color: #595959;
   -webkit-transition: all 0.8s;
@@ -324,7 +328,6 @@ ul.social-network li {
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
-
 .social-network a {
   background-color: #F9F9F9;
 }
